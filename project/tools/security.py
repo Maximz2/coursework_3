@@ -10,3 +10,4 @@ def generate_password_digest(password):
         salt=current_app.config["PWD_HASH_SALT"],
         iterations=current_app.config["PWD_HASH_ITERATIONS"],
     )
+
