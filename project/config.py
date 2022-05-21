@@ -6,6 +6,7 @@ BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
 class BaseConfig:
     SECRET_KEY = "you-will-never-guess"
+    ALGO = "HS256"
     JSON_AS_ASCII = False
 
     ITEMS_PER_PAGE = 12
